@@ -1,9 +1,18 @@
 import React, { Component } from "react";
 
-class index extends Component {
+class QuizEnd extends Component<any, any> {
+  handleResetClick() {
+    this.props.resetClickHandler();
+  }
+
   render() {
-    return <div />;
+    return (
+      <div>
+        <p> Thanks for being a poro</p>
+        <a href="#" onClick={this.handleResetClick.bind(this)} />
+      </div>
+    );
   }
 }
 
-export default index;
+export default QuizEnd;
