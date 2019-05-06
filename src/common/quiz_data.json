@@ -1,0 +1,86 @@
+{
+  "quiz_questions": [
+    {
+      "id": 1,
+      "instruction_text": "Where would you rather live?",
+      "answer_options": [
+        "in a small village",
+        "in a cottage deep in the forest",
+        "in a swamp",
+        "in a big city",
+        "in a small town",
+        "by the sea"
+      ]
+    },
+    {
+      "id": 2,
+      "instruction_text": "What's your favorite number?",
+      "answer_options": ["1", "2", "3", "4"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    },
+    {
+      "id": 1,
+      "instruction_text": "How many continents are there on Planet Earth?",
+      "answer_options": ["5", "6", "7", "8"]
+    }
+  ]
+}
