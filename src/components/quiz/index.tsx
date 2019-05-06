@@ -3,7 +3,6 @@ import QuizEnd from "../quiz-end";
 import QuizQuestion from "../quiz-question";
 
 let quizData = require("../../common/quiz_data.json");
-// let quizQuestions = quizData.quiz_questions;
 
 interface IQuestion {
   id: string;
@@ -30,13 +29,6 @@ export default class Quiz extends Component<any, any> {
     const isQuizEnd =
       this.state.quiz_position - 1 === quizData.quiz_questions.length;
 
-    // const quiz_questions = quizQuestions.map((question: IQuestion) => (
-    //   <div>
-    //     {question.id}, {question.instruction_text}, {question.answer_options}
-    //   </div>
-    // ));
-
-    // return <div> {React.Children.toArray(items)}</div>;
     return (
       <div>
         {isQuizEnd ? (

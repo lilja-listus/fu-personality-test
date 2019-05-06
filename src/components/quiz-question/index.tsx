@@ -23,7 +23,7 @@ class QuizQuestion extends Component<any, any> {
                 return (
                   <QuestionButton
                     key={index}
-                    button_text={answer_option}
+                    button_text={answer_option.answer}
                     clickHandler={this.handleClick.bind(this)}
                   />
                 );
