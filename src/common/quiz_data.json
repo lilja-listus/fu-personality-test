@@ -14,73 +14,141 @@
     },
     {
       "id": 2,
-      "instruction_text": "What's your favorite number?",
-      "answer_options": ["1", "2", "3", "4"]
+      "instruction_text": "You prefer…",
+      "answer_options": [
+        "being part of a crowd",
+        "a group of friends and aquitances",
+        "family circle",
+        "being alone"
+      ]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 3,
+      "instruction_text": "How would you describe yourself?",
+      "answer_options": [
+        "I like being left in peace, and strangers intimidate me, small talk is horror.",
+        "Singing always lifts my mood, especially in the summer!",
+        "I can show off emotions and be impulsive, but I can be silent as well",
+        "I’m kind of reserved, but I’m a delicate soul",
+        "I’m always cheerful, optimistic and generous.",
+        "I have a big mouth and I’m not afraid to speak my mind.",
+        "I’m quite peaceful, but once I’m pissed off, you’d better run.",
+        "I’m just an observer, I fight my own battles within."
+      ]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 4,
+      "instruction_text": "How about mosquitos?",
+      "answer_options": [
+        "No, nay, never!",
+        "They’re kind of irritating, but whatever",
+        "I know how to deal with them."
+      ]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 5,
+      "instruction_text": "Which of these animals do you like the most?",
+      "answer_options": [
+        "Squirrel",
+        "Reindeer",
+        "Bear",
+        "Swan",
+        "Wild goose",
+        "Horse",
+        "Falcon"
+      ]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 6,
+      "instruction_text": "How do you handle cold?",
+      "answer_options": [
+        "Cold never bothered me…",
+        "Not loving it… I prefer warm places"
+      ]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 7,
+      "instruction_text": "How do you like meat?",
+      "answer_options": ["well done", "a little raw", "I’m vegetarian"]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 8,
+      "instruction_text": "What kind of meat do you prefer (if any)?",
+      "answer_options": [
+        "Fish (beaver doesn’t count as fish)",
+        "Reindeer",
+        "Red meat",
+        "Poultry",
+        "Anything as long as it’s baked in dough"
+      ]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 9,
+      "instruction_text": "How do you like fricatives (like ch and sh and dj)?",
+      "answer_options": [
+        "they’re the champions!",
+        "I don’t really know them…",
+        "They’re ugly and hard to pronounce."
+      ]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 10,
+      "instruction_text": "Do you like the f sound?",
+      "answer_options": [
+        "No.",
+        "Excuse me, what was it, p?",
+        "I’m quite fond of it."
+      ]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 11,
+      "instruction_text": "What’s your attitude to religion?",
+      "answer_options": [
+        "No, thanks.",
+        "I’m a pagan, I believe in the Old Gods.",
+        "I’m very religious!",
+        "I’m not very interested…",
+        "That is a cool thing, with icons, and holy corner, and blessings…",
+        "I’m a synchretist, I follow more than one religion.",
+        "I’m kind of a Protestant.",
+        "I’m a Catholic."
+      ]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 12,
+      "instruction_text": "What music do you like listening to?",
+      "answer_options": [
+        "Heavy metal, sadness, suicide…",
+        "Hipster-indie-folk.",
+        "Anything with a melody and rhythm!",
+        "Disco and ethnopop, mainly.",
+        "Pella, capella, acapella.",
+        "Yoiks, you know, that is not yodeling… hanenneloyleloyleloyla-haneneloyleloyla…"
+      ]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 13,
+      "instruction_text": "How do you usually dress?",
+      "answer_options": [
+        "Hipster, etno, gothic, alternative, subculture… something like that",
+        "I’m a fashionista, brands and trends are my bread and butter!",
+        "I follow trends but I like mixing them up with traditional elements.",
+        "I don’t care at all."
+      ]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 14,
+      "instruction_text": "How about bureaucracy?",
+      "answer_options": [
+        "Absolutely necessary.",
+        "Stamps? What are those?",
+        "All I need is a card and Wi-Fi."
+      ]
     },
     {
-      "id": 1,
-      "instruction_text": "How many continents are there on Planet Earth?",
-      "answer_options": ["5", "6", "7", "8"]
+      "id": 15,
+      "instruction_text": "East or West?",
+      "answer_options": ["East.", "West.", "Somewhere in between."]
     }
   ]
 }
