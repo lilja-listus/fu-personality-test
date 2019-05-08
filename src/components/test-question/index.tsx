@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import QuestionButton from "../question-button";
+import TestButton from "../test-button";
 
-class QuizQuestion extends Component<any, any> {
+class TestQuestion extends Component<any, any> {
   constructor(props: any) {
     super(props);
   }
@@ -14,14 +14,14 @@ class QuizQuestion extends Component<any, any> {
     return (
       <main>
         <section>
-          <p>{this.props.quiz_question.instruction_text}</p>
+          <p>{this.props.test_question.instruction_text}</p>
         </section>
         <section className="buttons">
           <ul>
-            {this.props.quiz_question.answer_options.map(
+            {this.props.test_question.answer_options.map(
               (answer_option: any, index: string | number | undefined) => {
                 return (
-                  <QuestionButton
+                  <TestButton
                     key={index}
                     button_text={answer_option.answer}
                     clickHandler={this.handleClick.bind(this)}
@@ -38,4 +38,4 @@ class QuizQuestion extends Component<any, any> {
   }
 }
 
-export default QuizQuestion;
+export default TestQuestion;

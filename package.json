@@ -1,5 +1,5 @@
 {
-  "name": "fu-quiz",
+  "name": "fu-personality-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,6 @@
     "@types/react": "^16.7.22",
     "@types/react-dom": "^16.0.11",
     "ajv": "^6.5.4",
-    "algoliasearch": "^3.30.0",
     "async": "^2.6.1",
     "node-sass": "^4.11.0",
     "react": "^16.8.3",

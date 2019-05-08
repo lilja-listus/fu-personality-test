@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Quiz from "./../components/quiz/index";
+import Test from "./../components/test/index";
 
 class App extends Component<any, any> {
   state = {
@@ -8,7 +8,7 @@ class App extends Component<any, any> {
   render() {
     return (
       <div>
-        <Quiz />
+        <Test />
       </div>
     );
   }

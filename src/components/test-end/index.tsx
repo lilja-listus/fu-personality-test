@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class QuizEnd extends Component<any, any> {
+class TestEnd extends Component<any, any> {
   handleResetClick() {
     this.props.resetClickHandler();
   }
@@ -15,4 +15,4 @@ class QuizEnd extends Component<any, any> {
   }
 }
 
-export default QuizEnd;
+export default TestEnd;

@@ -1,5 +1,5 @@
 {
-  "quiz_questions": [
+  "test_questions": [
     {
       "id": 1,
       "instruction_text": "Where would you rather live?",
