@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./index.scss";
 
 class TestEnd extends Component<any, any> {
   handleResetClick() {

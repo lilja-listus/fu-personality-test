@@ -1,10 +1,10 @@
 import React, { Component } from "react";
+import "./index.scss";
 
 class QuestionButton extends Component<any, any> {
   handleClick() {
     this.props.clickHandler(this.props.button_text);
-    let answerId = this.props.id;
-    this.props.selectAnswer(answerId);
+    this.props.selectAnswer(this.props.answer_id);
   }
 
   render() {

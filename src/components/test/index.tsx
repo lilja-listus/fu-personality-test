@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TestEnd from "../test-end";
 import TestQuestion from "../test-question";
+import "./index.scss";
 
 let testData = require("../../common/data/test_data.json");
 

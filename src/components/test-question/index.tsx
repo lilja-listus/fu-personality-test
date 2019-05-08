@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./index.scss";
 import TestButton from "../test-button";
 
 class TestQuestion extends Component<any, any> {
@@ -25,7 +26,7 @@ class TestQuestion extends Component<any, any> {
                     key={index}
                     button_text={answer_option.answer}
                     clickHandler={this.handleClick.bind(this)}
-                    id={answer_option.id}
+                    answer_id={answer_option.answer_id}
                     selectAnswer={this.props.selectAnswer}
                   />
                 );
