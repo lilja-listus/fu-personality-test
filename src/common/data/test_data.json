@@ -4,22 +4,22 @@
       "id": 1,
       "instruction_text": "Where would you rather live?",
       "answer_options": [
-        { "answer": "in a small village", "id": 1 },
-        { "answer": "in a cottage deep in the forest", "id": 2 },
-        { "answer": "in a swamp", "id": 3 },
-        { "answer": "in a big city", "id": 4 },
-        { "answer": "in a small town", "id": 5 },
-        { "answer": "by the sea", "id": 6 }
+        { "answer": "in a small village", "answer_id": 1 },
+        { "answer": "in a cottage deep in the forest", "answer_id": 2 },
+        { "answer": "in a swamp", "answer_id": 3 },
+        { "answer": "in a big city", "answer_id": 4 },
+        { "answer": "in a small town", "answer_id": 5 },
+        { "answer": "by the sea", "answer_id": 6 }
       ]
     },
     {
       "id": 2,
       "instruction_text": "You prefer…",
       "answer_options": [
-        { "answer": "being part of a crowd", "id": 1 },
-        { "answer": "a group of friends and acquaintances", "id": 2 },
-        { "answer": "family circle", "id": 3 },
-        { "answer": "being alone", "id": 4 }
+        { "answer": "being part of a crowd", "answer_id": 1 },
+        { "answer": "a group of friends and acquaintances", "answer_id": 2 },
+        { "answer": "family circle", "answer_id": 3 },
+        { "answer": "being alone", "answer_id": 4 }
       ]
     },
     {
@@ -28,29 +28,35 @@
       "answer_options": [
         {
           "answer": "I like being left in peace, and strangers intimidate me, small talk is horror.",
-          "id": 1
+          "answer_id": 1
         },
         {
           "answer": "Singing always lifts my mood, especially in the summer!",
-          "id": 2
+          "answer_id": 2
         },
         {
           "answer": "I can show off emotions and be impulsive, but I can be silent as well",
-          "id": 3
+          "answer_id": 3
         },
-        { "answer": "I’m kind of reserved, but I’m a delicate soul", "id": 4 },
-        { "answer": "I’m always cheerful, optimistic and generous.", "id": 5 },
+        {
+          "answer": "I’m kind of reserved, but I’m a delicate soul",
+          "answer_id": 4
+        },
+        {
+          "answer": "I’m always cheerful, optimistic and generous.",
+          "answer_id": 5
+        },
         {
           "answer": "I have a big mouth and I’m not afraid to speak my mind.",
-          "id": 6
+          "answer_id": 6
         },
         {
           "answer": "I’m quite peaceful, but once I’m pissed off, you’d better run.",
-          "id": 7
+          "answer_id": 7
         },
         {
           "answer": "I’m just an observer, I fight my own battles within.",
-          "id": 8
+          "answer_id": 8
         }
       ]
     },
@@ -58,99 +64,102 @@
       "id": 4,
       "instruction_text": "How about mosquitos?",
       "answer_options": [
-        { "answer": "No, nay, never!", "id": 1 },
-        { "answer": "They’re kind of irritating, but whatever", "id": 2 },
-        { "answer": "I know how to deal with them.", "id": 3 }
+        { "answer": "No, nay, never!", "answer_id": 1 },
+        {
+          "answer": "They’re kind of irritating, but whatever",
+          "answer_id": 2
+        },
+        { "answer": "I know how to deal with them.", "answer_id": 3 }
       ]
     },
     {
       "id": 5,
       "instruction_text": "Which of these animals do you like the most?",
       "answer_options": [
-        { "answer": "Squirrel", "id": 1 },
-        { "answer": "Reindeer", "id": 2 },
-        { "answer": "Bear", "id": 3 },
-        { "answer": "Swan", "id": 4 },
-        { "answer": "Wild goose", "id": 5 },
-        { "answer": "Horse", "id": 6 },
-        { "answer": "Falcon", "id": 7 }
+        { "answer": "Squirrel", "answer_id": 1 },
+        { "answer": "Reindeer", "answer_id": 2 },
+        { "answer": "Bear", "answer_id": 3 },
+        { "answer": "Swan", "answer_id": 4 },
+        { "answer": "Wild goose", "answer_id": 5 },
+        { "answer": "Horse", "answer_id": 6 },
+        { "answer": "Falcon", "answer_id": 7 }
       ]
     },
     {
       "id": 6,
       "instruction_text": "How do you handle cold?",
       "answer_options": [
-        { "answer": "Cold never bothered me…", "id": 1 },
-        { "answer": "Not loving it… I prefer warm places", "id": 2 }
+        { "answer": "Cold never bothered me…", "answer_id": 1 },
+        { "answer": "Not loving it… I prefer warm places", "answer_id": 2 }
       ]
     },
     {
       "id": 7,
       "instruction_text": "How do you like meat?",
       "answer_options": [
-        { "answer": "well done", "id": 1 },
-        { "answer": "a little raw", "id": 2 },
-        { "answer": "I’m vegetarian", "id": 3 }
+        { "answer": "well done", "answer_id": 1 },
+        { "answer": "a little raw", "answer_id": 2 },
+        { "answer": "I’m vegetarian", "answer_id": 3 }
       ]
     },
     {
       "id": 8,
       "instruction_text": "What kind of meat do you prefer (if any)?",
       "answer_options": [
-        { "answer": "Fish (beaver doesn’t count as fish)", "id": 1 },
-        { "answer": "Reindeer", "id": 2 },
-        { "answer": "Red meat", "id": 3 },
-        { "answer": "Poultry", "id": 4 },
-        { "answer": "Anything as long as it’s baked in dough", "id": 5 }
+        { "answer": "Fish (beaver doesn’t count as fish)", "answer_id": 1 },
+        { "answer": "Reindeer", "answer_id": 2 },
+        { "answer": "Red meat", "answer_id": 3 },
+        { "answer": "Poultry", "answer_id": 4 },
+        { "answer": "Anything as long as it’s baked in dough", "answer_id": 5 }
       ]
     },
     {
       "id": 9,
       "instruction_text": "How do you like fricatives (like ch and sh and dj)?",
       "answer_options": [
-        { "answer": "they’re the champions!", "id": 1 },
-        { "answer": "I don’t really know them…", "id": 2 },
-        { "answer": "They’re ugly and hard to pronounce.", "id": 3 }
+        { "answer": "they’re the champions!", "answer_id": 1 },
+        { "answer": "I don’t really know them…", "answer_id": 2 },
+        { "answer": "They’re ugly and hard to pronounce.", "answer_id": 3 }
       ]
     },
     {
       "id": 10,
       "instruction_text": "Do you like the f sound?",
       "answer_options": [
-        { "answer": "No.", "id": 1 },
-        { "answer": "Excuse me, what was it, p?", "id": 2 },
-        { "answer": "I’m quite fond of it.", "id": 3 }
+        { "answer": "No.", "answer_id": 1 },
+        { "answer": "Excuse me, what was it, p?", "answer_id": 2 },
+        { "answer": "I’m quite fond of it.", "answer_id": 3 }
       ]
     },
     {
       "id": 11,
       "instruction_text": "What’s your attitude to religion?",
       "answer_options": [
-        { "answer": "No, thanks.", "id": 1 },
-        { "answer": "I’m a pagan, I believe in the Old Gods.", "id": 2 },
-        { "answer": "I’m very religious!", "id": 3 },
-        { "answer": "I’m not very interested…", "id": 4 },
+        { "answer": "No, thanks.", "answer_id": 1 },
+        { "answer": "I’m a pagan, I believe in the Old Gods.", "answer_id": 2 },
+        { "answer": "I’m very religious!", "answer_id": 3 },
+        { "answer": "I’m not very interested…", "answer_id": 4 },
         {
           "answer": "That is a cool thing, with icons, and holy corner, and blessings…",
-          "id": 5
+          "answer_id": 5
         },
         {
           "answer": "I’m a synchretist, I follow more than one religion.",
-          "id": 6
+          "answer_id": 6
         },
-        { "answer": "I’m kind of a Protestant.", "id": 7 },
-        { "answer": "I’m a Catholic.", "id": 8 }
+        { "answer": "I’m kind of a Protestant.", "answer_id": 7 },
+        { "answer": "I’m a Catholic.", "answer_id": 8 }
       ]
     },
     {
       "id": 12,
       "instruction_text": "What music do you like listening to?",
       "answer_options": [
-        { "answer": "Heavy metal, sadness, suicide…", "id": 1 },
-        { "answer": "Hipster-indie-folk.", "id": 2 },
-        { "answer": "Anything with a melody and rhythm!", "id": 3 },
-        { "answer": "Disco and ethnopop, mainly.", "id": 4 },
-        { "answer": "Pella, capella, acapella.", "id": 5 },
+        { "answer": "Heavy metal, sadness, suicide…", "answer_id": 1 },
+        { "answer": "Hipster-indie-folk.", "answer_id": 2 },
+        { "answer": "Anything with a melody and rhythm!", "answer_id": 3 },
+        { "answer": "Disco and ethnopop, mainly.", "answer_id": 4 },
+        { "answer": "Pella, capella, acapella.", "answer_id": 5 },
         {
           "answer": "Yoiks, you know, that is not yodeling… hanenneloyleloyleloyla-haneneloyleloyla…",
           "id": 6
@@ -163,35 +172,35 @@
       "answer_options": [
         {
           "answer": "Hipster, etno, gothic, alternative, subculture… something like that",
-          "id": 1
+          "answer_id": 1
         },
         {
           "answer": "I’m a fashionista, brands and trends are my bread and butter!",
-          "id": 2
+          "answer_id": 2
         },
         {
           "answer": "I follow trends but I like mixing them up with traditional elements.",
-          "id": 3
+          "answer_id": 3
         },
-        { "answer": "I don’t care at all.", "id": 4 }
+        { "answer": "I don’t care at all.", "answer_id": 4 }
       ]
     },
     {
       "id": 14,
       "instruction_text": "How about bureaucracy?",
       "answer_options": [
-        { "answer": "Absolutely necessary.", "id": 1 },
-        { "answer": "Stamps? What are those?", "id": 2 },
-        { "answer": "All I need is a card and Wi-Fi.", "id": 3 }
+        { "answer": "Absolutely necessary.", "answer_id": 1 },
+        { "answer": "Stamps? What are those?", "answer_id": 2 },
+        { "answer": "All I need is a card and Wi-Fi.", "answer_id": 3 }
       ]
     },
     {
       "id": 15,
       "instruction_text": "East or West?",
       "answer_options": [
-        { "answer": "East.", "id": 1 },
-        { "answer": "West.", "id": 2 },
-        { "answer": "Somewhere in between.", "id": 3 }
+        { "answer": "East.", "answer_id": 1 },
+        { "answer": "West.", "answer_id": 2 },
+        { "answer": "Somewhere in between.", "answer_id": 3 }
       ]
     }
   ]
