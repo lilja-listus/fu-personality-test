@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import QuizEnd from "../quiz-end";
 import QuizQuestion from "../quiz-question";
 
-let quizData = require("../../common/quiz_data.json");
+let quizData = require("../../common/data/quiz_data.json");
 
 interface IQuestion {
   id: string;

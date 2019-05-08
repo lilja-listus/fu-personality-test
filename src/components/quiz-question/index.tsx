@@ -25,6 +25,7 @@ class QuizQuestion extends Component<any, any> {
                     key={index}
                     button_text={answer_option.answer}
                     clickHandler={this.handleClick.bind(this)}
+                    id={answer_option.id}
                   />
                 );
               }
