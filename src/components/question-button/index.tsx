@@ -4,7 +4,7 @@ class QuestionButton extends Component<any, any> {
   handleClick() {
     this.props.clickHandler(this.props.button_text);
     let answerId = this.props.id;
-    console.log(answerId);
+    this.props.selectAnswer(answerId);
   }
 
   render() {

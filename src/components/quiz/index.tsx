@@ -13,7 +13,7 @@ interface IQuestion {
 export default class Quiz extends Component<any, any> {
   constructor(props: any) {
     super(props);
-    this.state = { quiz_position: 1 };
+    this.state = { quiz_position: 1, sumAnswers: 0 };
   }
 
   showNextQuestion() {
@@ -25,7 +25,14 @@ export default class Quiz extends Component<any, any> {
   handleResetClick() {
     this.setState({ quiz_position: 1 });
   }
+
+  selectAnswer = (id: any) => {
+    this.setState({ sumAnswers: this.state.sumAnswers + id });
+  };
+
   render() {
+    console.log(this.state.sumAnswers);
+
     const isQuizEnd =
       this.state.quiz_position - 1 === quizData.quiz_questions.length;
 
@@ -39,6 +46,7 @@ export default class Quiz extends Component<any, any> {
               quizData.quiz_questions[this.state.quiz_position - 1]
             }
             showNextQuestionHandler={this.showNextQuestion.bind(this)}
+            selectAnswer={this.selectAnswer}
           />
         )}
       </div>
