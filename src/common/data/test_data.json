@@ -1,25 +1,53 @@
 {
+  "nationalities": {
+    "Hungarian": 0,
+    "Mansi": 0,
+    "Khanty": 0,
+    "Komi": 0,
+    "Permyak": 0,
+    "Udmurt": 0,
+    "Mari": 0,
+    "Erzya": 0,
+    "Moksa": 0,
+    "Sami": 0,
+    "Estonian": 0,
+    "Veps": 0,
+    "Karelian": 0,
+    "Finn": 0
+  },
   "test_questions": [
     {
       "id": 1,
       "instruction_text": "Where would you rather live?",
       "answer_options": [
-        { "answer": "in a small village", "answer_id": 1 },
-        { "answer": "in a cottage deep in the forest", "answer_id": 2 },
-        { "answer": "in a swamp", "answer_id": 3 },
-        { "answer": "in a big city", "answer_id": 4 },
-        { "answer": "in a small town", "answer_id": 5 },
-        { "answer": "by the sea", "answer_id": 6 }
+        {
+          "answer": "in a small village",
+          "update": ["Komi", "Udmurt", "Mari", "Erzya"]
+        },
+        {
+          "answer": "in a cottage deep in the forest",
+          "update": ["Mansi", "Khanty", "Sami"]
+        },
+        { "answer": "in a swamp", "update": ["Permyak", "Veps", "Karelian"] },
+        { "answer": "in a big city", "update": ["Hungarian"] },
+        { "answer": "in a small town", "update": ["Finnish"] },
+        { "answer": "by the sea", "update": ["Estonian"] }
       ]
     },
     {
       "id": 2,
       "instruction_text": "You prefer…",
       "answer_options": [
-        { "answer": "being part of a crowd", "answer_id": 1 },
-        { "answer": "a group of friends and acquaintances", "answer_id": 2 },
-        { "answer": "family circle", "answer_id": 3 },
-        { "answer": "being alone", "answer_id": 4 }
+        { "answer": "being part of a crowd", "update": ["Hungarian"] },
+        {
+          "answer": "a group of friends and acquaintances",
+          "update": ["Udmurt", "Mari", "Erzya", "Moksha", "Estonian"]
+        },
+        {
+          "answer": "family circle",
+          "update": ["Mansi", "Khanty", "Komi", "Permyak", "Sami"]
+        },
+        { "answer": "being alone", "update": ["Veps", "Karelian", "Finnish"] }
       ]
     },
     {
@@ -28,35 +56,35 @@
       "answer_options": [
         {
           "answer": "I like being left in peace, and strangers intimidate me, small talk is horror.",
-          "answer_id": 1
+          "update": ["Finnish"]
         },
         {
           "answer": "Singing always lifts my mood, especially in the summer!",
-          "answer_id": 2
+          "update": ["Estonian"]
         },
         {
           "answer": "I can show off emotions and be impulsive, but I can be silent as well",
-          "answer_id": 3
+          "update": ["Hungarian", "Erzya", "Moksha"]
         },
         {
           "answer": "I’m kind of reserved, but I’m a delicate soul",
-          "answer_id": 4
+          "update": ["Komi", "Permyak", "Udmurt"]
         },
         {
           "answer": "I’m always cheerful, optimistic and generous.",
-          "answer_id": 5
+          "update": ["Mansi", "Khanty"]
         },
         {
           "answer": "I have a big mouth and I’m not afraid to speak my mind.",
-          "answer_id": 6
+          "update": ["Sami"]
         },
         {
           "answer": "I’m quite peaceful, but once I’m pissed off, you’d better run.",
-          "answer_id": 7
+          "update": ["Veps"]
         },
         {
           "answer": "I’m just an observer, I fight my own battles within.",
-          "answer_id": 8
+          "update": ["Mari"]
         }
       ]
     },
@@ -64,105 +92,202 @@
       "id": 4,
       "instruction_text": "How about mosquitos?",
       "answer_options": [
-        { "answer": "No, nay, never!", "answer_id": 1 },
+        { "answer": "No, nay, never!", "update": ["Hungarian"] },
         {
           "answer": "They’re kind of irritating, but whatever",
-          "answer_id": 2
+          "update": [
+            "Komi",
+            "Permyak",
+            "Udmurt",
+            "Mari",
+            "Erzya",
+            "Moksha",
+            "Estonian",
+            "Veps",
+            "Karelian",
+            "Finnish"
+          ]
         },
-        { "answer": "I know how to deal with them.", "answer_id": 3 }
+        {
+          "answer": "I know how to deal with them.",
+          "update": ["Khanty", "Mansi", "Sami"]
+        }
       ]
     },
     {
       "id": 5,
       "instruction_text": "Which of these animals do you like the most?",
       "answer_options": [
-        { "answer": "Squirrel", "answer_id": 1 },
-        { "answer": "Reindeer", "answer_id": 2 },
-        { "answer": "Bear", "answer_id": 3 },
-        { "answer": "Swan", "answer_id": 4 },
-        { "answer": "Wild goose", "answer_id": 5 },
-        { "answer": "Horse", "answer_id": 6 },
-        { "answer": "Falcon", "answer_id": 7 }
+        { "answer": "Squirrel", "update": ["Udmurt"] },
+        {
+          "answer": "Reindeer",
+          "update": ["Mansi", "Khanty", "Mansi", "Sami"]
+        },
+        { "answer": "Bear", "update": ["Permyak", "Erzya", "Moksha"] },
+        { "answer": "Swan", "update": ["Karelian", "Finnish"] },
+        { "answer": "Wild goose", "update": ["Estonian", "Veps"] },
+        { "answer": "Horse", "update": ["Komi"] },
+        { "answer": "Falcon", "update": ["Hungarian"] }
       ]
     },
     {
       "id": 6,
       "instruction_text": "How do you handle cold?",
       "answer_options": [
-        { "answer": "Cold never bothered me…", "answer_id": 1 },
-        { "answer": "Not loving it… I prefer warm places", "answer_id": 2 }
+        {
+          "answer": "Cold never bothered me…",
+          "update": [
+            "Mansi",
+            "Khanty",
+            "Komi",
+            "Permyak",
+            "Udmurt",
+            "Sami",
+            "Veps",
+            "Karelian",
+            "Finnish"
+          ]
+        },
+        {
+          "answer": "Not loving it… I prefer warm places",
+          "update": ["Hungarian", "Mari", "Erzya", "Moksha", "Estonian"]
+        }
       ]
     },
     {
       "id": 7,
       "instruction_text": "How do you like meat?",
       "answer_options": [
-        { "answer": "well done", "answer_id": 1 },
-        { "answer": "a little raw", "answer_id": 2 },
-        { "answer": "I’m vegetarian", "answer_id": 3 }
+        {
+          "answer": "well done",
+          "update": [
+            "Hungarian",
+            "Permyak",
+            "Udmurt",
+            "Khanty",
+            "Mari",
+            "Erzya",
+            "Moksha",
+            "Estonian",
+            "Veps",
+            "Karelian"
+          ]
+        },
+        { "answer": "a little raw", "update": ["Mansi", "Sami"] },
+        { "answer": "I’m vegetarian", "update": ["Finnish"] }
       ]
     },
     {
       "id": 8,
       "instruction_text": "What kind of meat do you prefer (if any)?",
       "answer_options": [
-        { "answer": "Fish (beaver doesn’t count as fish)", "answer_id": 1 },
-        { "answer": "Reindeer", "answer_id": 2 },
-        { "answer": "Red meat", "answer_id": 3 },
-        { "answer": "Poultry", "answer_id": 4 },
-        { "answer": "Anything as long as it’s baked in dough", "answer_id": 5 }
+        {
+          "answer": "Fish (beaver doesn’t count as fish)",
+          "update": ["Estonian", "Veps", "Karelian", "Finnish"]
+        },
+        { "answer": "Reindeer", "update": ["Mansi", "Khanty", "Sami"] },
+        { "answer": "Red meat", "update": ["Hungarian"] },
+        { "answer": "Poultry", "update": ["Udmurt", "Mari"] },
+        {
+          "answer": "Anything as long as it’s baked in dough",
+          "update": ["Komi", "Permyak", "Erzya", "Moksha"]
+        }
       ]
     },
     {
       "id": 9,
       "instruction_text": "How do you like fricatives (like ch and sh and dj)?",
       "answer_options": [
-        { "answer": "they’re the champions!", "answer_id": 1 },
-        { "answer": "I don’t really know them…", "answer_id": 2 },
-        { "answer": "They’re ugly and hard to pronounce.", "answer_id": 3 }
+        {
+          "answer": "they’re the champions!",
+          "update": [
+            "Hungarian",
+            "Mansi",
+            "Khanty",
+            "Komi",
+            "Permyak",
+            "Udmurt",
+            "Mari",
+            "Erzya",
+            "Moksha",
+            "Sami"
+          ]
+        },
+        {
+          "answer": "I don’t really know them…",
+          "update": ["Estonian", "Veps", "Karelian"]
+        },
+        {
+          "answer": "They’re ugly and hard to pronounce.",
+          "update": ["Finnish"]
+        }
       ]
     },
     {
       "id": 10,
       "instruction_text": "Do you like the f sound?",
       "answer_options": [
-        { "answer": "No.", "answer_id": 1 },
-        { "answer": "Excuse me, what was it, p?", "answer_id": 2 },
-        { "answer": "I’m quite fond of it.", "answer_id": 3 }
+        {
+          "answer": "No.",
+          "update": ["Estonian", "Veps", "Karelian", "Finnish"]
+        },
+        {
+          "answer": "Excuse me, what was it, p?",
+          "update": ["Mansi", "Khanty", "Komi", "Permyak", "Udmurt", "Mari"]
+        },
+        {
+          "answer": "I’m quite fond of it.",
+          "update": ["Hungarian", "Erzya", "Moksha", "Sami"]
+        }
       ]
     },
     {
       "id": 11,
       "instruction_text": "What’s your attitude to religion?",
       "answer_options": [
-        { "answer": "No, thanks.", "answer_id": 1 },
-        { "answer": "I’m a pagan, I believe in the Old Gods.", "answer_id": 2 },
-        { "answer": "I’m very religious!", "answer_id": 3 },
-        { "answer": "I’m not very interested…", "answer_id": 4 },
+        { "answer": "No, thanks.", "update": ["Estonian"] },
+        {
+          "answer": "I’m a pagan, I believe in the Old Gods.",
+          "update": ["Khanty", "Mari"]
+        },
+        { "answer": "I’m very religious!", "update": ["Veps", "Komi"] },
+        { "answer": "I’m not very interested…", "update": ["Udmurt"] },
         {
           "answer": "That is a cool thing, with icons, and holy corner, and blessings…",
-          "answer_id": 5
+          "update": ["Erzya", "Moksha"]
         },
         {
           "answer": "I’m a synchretist, I follow more than one religion.",
-          "answer_id": 6
+          "update": ["Mansi", "Karelian", "Permyak"]
         },
-        { "answer": "I’m kind of a Protestant.", "answer_id": 7 },
-        { "answer": "I’m a Catholic.", "answer_id": 8 }
+        { "answer": "I’m kind of a Protestant.", "update": ["Finnish"] },
+        { "answer": "I’m a Catholic.", "update": ["Hungarian"] }
       ]
     },
     {
       "id": 12,
       "instruction_text": "What music do you like listening to?",
       "answer_options": [
-        { "answer": "Heavy metal, sadness, suicide…", "answer_id": 1 },
-        { "answer": "Hipster-indie-folk.", "answer_id": 2 },
-        { "answer": "Anything with a melody and rhythm!", "answer_id": 3 },
-        { "answer": "Disco and ethnopop, mainly.", "answer_id": 4 },
-        { "answer": "Pella, capella, acapella.", "answer_id": 5 },
+        { "answer": "Heavy metal, sadness, suicide…", "update": ["Finnish"] },
+        {
+          "answer": "Hipster-indie-folk.",
+          "update": ["Udmurt", "Estonian", "Veps", "Karelian"]
+        },
+        {
+          "answer": "Anything with a melody and rhythm!",
+          "update": ["Hungarian"]
+        },
+        {
+          "answer": "Disco and ethnopop, mainly.",
+          "update": ["Komi", "Permyak", "Mari", "Erzya", "Moksha"]
+        },
+        {
+          "answer": "Pella, capella, acapella.",
+          "update": ["Mansi", "Khanty"]
+        },
         {
           "answer": "Yoiks, you know, that is not yodeling… hanenneloyleloyleloyla-haneneloyleloyla…",
-          "id": 6
+          "update": ["Sami"]
         }
       ]
     },
@@ -172,35 +297,63 @@
       "answer_options": [
         {
           "answer": "Hipster, etno, gothic, alternative, subculture… something like that",
-          "answer_id": 1
+          "update": ["Hungarian", "Sami", "Estonian", "Finnish"]
         },
         {
           "answer": "I’m a fashionista, brands and trends are my bread and butter!",
-          "answer_id": 2
+          "update": ["Komi", "Permyak", "Moksha"]
         },
         {
           "answer": "I follow trends but I like mixing them up with traditional elements.",
-          "answer_id": 3
+          "update": ["Udmurt", "Mari", "Erzya", "Veps", "Karelian"]
         },
-        { "answer": "I don’t care at all.", "answer_id": 4 }
+        { "answer": "I don’t care at all.", "update": ["Mansi", "Khanty"] }
       ]
     },
     {
       "id": 14,
       "instruction_text": "How about bureaucracy?",
       "answer_options": [
-        { "answer": "Absolutely necessary.", "answer_id": 1 },
-        { "answer": "Stamps? What are those?", "answer_id": 2 },
-        { "answer": "All I need is a card and Wi-Fi.", "answer_id": 3 }
+        {
+          "answer": "Absolutely necessary.",
+          "update": [
+            "Hungarian",
+            "Mansi",
+            "Khanty",
+            "Komi",
+            "Permyak",
+            "Udmurt",
+            "Mari",
+            "Erzya",
+            "Moksha",
+            "Veps",
+            "Karelian"
+          ]
+        },
+        { "answer": "Stamps? What are those?", "update": ["Finnish", "Sami"] },
+        { "answer": "All I need is a card and Wi-Fi.", "update": ["Estonian"] }
       ]
     },
     {
       "id": 15,
       "instruction_text": "East or West?",
       "answer_options": [
-        { "answer": "East.", "answer_id": 1 },
-        { "answer": "West.", "answer_id": 2 },
-        { "answer": "Somewhere in between.", "answer_id": 3 }
+        {
+          "answer": "East.",
+          "update": [
+            "Mansi",
+            "Khanty",
+            "Komi",
+            "Permyak",
+            "Udmurt",
+            "Mari",
+            "Erzya",
+            "Moksha",
+            "Veps"
+          ]
+        },
+        { "answer": "West.", "update": ["Sami", "Estonian", "Finnish"] },
+        { "answer": "Somewhere in between.", "update": ["Hungarian"] }
       ]
     }
   ]
