@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import Test from "./../components/test/index";
+import "./index.scss";
 
 class App extends Component<any, any> {
-  state = {
-    answer: ""
-  };
   render() {
     return (
       <div>

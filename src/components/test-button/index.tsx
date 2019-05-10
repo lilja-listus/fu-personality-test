@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./index.scss";
+import Button from "@material-ui/core/Button";
 
 class QuestionButton extends Component<any, any> {
   handleClick() {
@@ -11,10 +12,15 @@ class QuestionButton extends Component<any, any> {
     return (
       <div>
         {" "}
-        <li>
-          <button onClick={this.handleClick.bind(this)} />
-          {this.props.button_text}
-        </li>
+        <div className="button">
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={this.handleClick.bind(this)}
+          >
+            {this.props.button_text}{" "}
+          </Button>
+        </div>
       </div>
     );
   }

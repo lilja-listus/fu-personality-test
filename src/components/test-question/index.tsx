@@ -13,28 +13,28 @@ class TestQuestion extends Component<any, any> {
 
   render() {
     return (
-      <main>
-        <section>
-          <p>{this.props.test_question.instruction_text}</p>
-        </section>
-        <section className="buttons">
-          <ul>
-            {this.props.test_question.answer_options.map(
-              (answer_option: any, index: string | number | undefined) => {
-                return (
-                  <TestButton
-                    key={index}
-                    button_text={answer_option.answer}
-                    clickHandler={this.handleClick.bind(this)}
-                    answer={index}
-                    selectAnswer={this.props.selectAnswer}
-                  />
-                );
-              }
-            )}
-          </ul>
-        </section>
-      </main>
+      <div>
+        <div>
+          <div className="question">
+            {this.props.test_question.instruction_text}
+          </div>
+        </div>
+        <div className="buttons">
+          {this.props.test_question.answer_options.map(
+            (answer_option: any, index: string | number | undefined) => {
+              return (
+                <TestButton
+                  key={index}
+                  button_text={answer_option.answer}
+                  clickHandler={this.handleClick.bind(this)}
+                  answer={index}
+                  selectAnswer={this.props.selectAnswer}
+                />
+              );
+            }
+          )}
+        </div>
+      </div>
     );
   }
 }
