@@ -1,6 +1,5 @@
 export function countAnswers(nationalities: any, dataToUpdate: string[]) {
   dataToUpdate.forEach(key => nationalities[key]++);
-  console.log(nationalities);
   return nationalities;
 }
 

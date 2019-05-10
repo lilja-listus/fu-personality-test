@@ -13,7 +13,6 @@ class TestEnd extends Component<any, any> {
     const finalAnswers = findFinalAnswer(this.props.nationalities);
     const items = finalAnswers.map(answer => <div>{answer}</div>);
 
-    console.log(finalAnswers);
     return (
       <div>
         <p> Thanks for taking the test</p>
