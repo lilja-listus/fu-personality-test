@@ -26,7 +26,7 @@ class TestQuestion extends Component<any, any> {
                     key={index}
                     button_text={answer_option.answer}
                     clickHandler={this.handleClick.bind(this)}
-                    answer_id={answer_option.answer_id}
+                    answer={index}
                     selectAnswer={this.props.selectAnswer}
                   />
                 );

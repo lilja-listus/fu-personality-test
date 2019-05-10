@@ -4,7 +4,7 @@ import "./index.scss";
 class QuestionButton extends Component<any, any> {
   handleClick() {
     this.props.clickHandler(this.props.button_text);
-    this.props.selectAnswer(this.props.answer_id);
+    this.props.selectAnswer(this.props.answer);
   }
 
   render() {

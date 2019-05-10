@@ -2,19 +2,14 @@ import React, { Component } from "react";
 import TestEnd from "../test-end";
 import TestQuestion from "../test-question";
 import "./index.scss";
+import { countAnswers } from "../../common/services/count-answer";
 
 let testData = require("../../common/data/test_data.json");
-
-interface IQuestion {
-  id: string;
-  instruction_text: string;
-  answer_options: string[];
-}
 
 export default class Test extends Component<any, any> {
   constructor(props: any) {
     super(props);
-    this.state = { test_position: 1, sumAnswers: 0 };
+    this.state = { test_position: 1 };
   }
 
   showNextQuestion() {
@@ -27,20 +22,26 @@ export default class Test extends Component<any, any> {
     this.setState({ test_position: 1 });
   }
 
-  selectAnswer = (id: any) => {
-    this.setState({ sumAnswers: this.state.sumAnswers + id });
+  selectAnswer = (answer: any) => {
+    const dataToUpdate =
+      testData.test_questions[this.state.test_position - 1].answer_options[
+        answer
+      ].update;
+
+    countAnswers(testData.nationalities, dataToUpdate);
   };
 
   render() {
-    console.log(this.state.sumAnswers);
-
     const isTestEnd =
       this.state.test_position - 1 === testData.test_questions.length;
 
     return (
       <div>
         {isTestEnd ? (
-          <TestEnd resetClickHandler={this.handleResetClick.bind(this)} />
+          <TestEnd
+            resetClickHandler={this.handleResetClick.bind(this)}
+            nationalities={testData.nationalities}
+          />
         ) : (
           <TestQuestion
             test_question={

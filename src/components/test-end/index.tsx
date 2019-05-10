@@ -1,16 +1,27 @@
 import React, { Component } from "react";
 import "./index.scss";
+import { findFinalAnswer } from "../../common/services/count-answer";
 
 class TestEnd extends Component<any, any> {
   handleResetClick() {
     this.props.resetClickHandler();
   }
 
+  showResult() {}
+
   render() {
+    const finalAnswers = findFinalAnswer(this.props.nationalities);
+    const items = finalAnswers.map(answer => <div>{answer}</div>);
+
+    console.log(finalAnswers);
     return (
       <div>
-        <p> Thanks for being a poro</p>
-        <a href="#" onClick={this.handleResetClick.bind(this)} />
+        <p> Thanks for taking the test</p>
+        <div>You are most probably:</div>
+        <div>{React.Children.toArray(items)}</div>
+        <a href="#" onClick={this.handleResetClick.bind(this)}>
+          Reset The Test
+        </a>
       </div>
     );
   }
