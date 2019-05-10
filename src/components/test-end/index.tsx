@@ -12,17 +12,24 @@ class TestEnd extends Component<any, any> {
 
   render() {
     const finalAnswers = findFinalAnswer(this.props.nationalities);
-    const items = finalAnswers.map(answer => <div>{answer}</div>);
+
+    let output = "";
+
+    if (finalAnswers.length > 1) {
+      const last = finalAnswers.pop();
+      output += finalAnswers.join(", ") + " or " + last;
+    } else {
+      output += finalAnswers[0];
+    }
 
     return (
       <div>
-        <p> Thanks for taking the test</p>
-        <div>You are most probably:</div>
-        <div>{React.Children.toArray(items)}</div>
+        <div className="text">You are most probably:</div>
+        <div className="output">{output}</div>
 
         <Button
           variant="contained"
-          color="secondary"
+          color="default"
           href="#"
           onClick={this.handleResetClick.bind(this)}
         >

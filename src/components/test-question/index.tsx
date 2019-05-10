@@ -13,11 +13,9 @@ class TestQuestion extends Component<any, any> {
 
   render() {
     return (
-      <div>
-        <div>
-          <div className="question">
-            {this.props.test_question.instruction_text}
-          </div>
+      <div className="buttons-root">
+        <div className="question">
+          {this.props.test_question.instruction_text}
         </div>
         <div className="buttons">
           {this.props.test_question.answer_options.map(
