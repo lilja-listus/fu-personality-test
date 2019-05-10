@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./index.scss";
 import { findFinalAnswer } from "../../common/services/count-answer";
+import { Button } from "@material-ui/core";
 
 class TestEnd extends Component<any, any> {
   handleResetClick() {
@@ -18,9 +19,15 @@ class TestEnd extends Component<any, any> {
         <p> Thanks for taking the test</p>
         <div>You are most probably:</div>
         <div>{React.Children.toArray(items)}</div>
-        <a href="#" onClick={this.handleResetClick.bind(this)}>
-          Reset The Test
-        </a>
+
+        <Button
+          variant="contained"
+          color="secondary"
+          href="#"
+          onClick={this.handleResetClick.bind(this)}
+        >
+          Reset The Test{" "}
+        </Button>
       </div>
     );
   }
