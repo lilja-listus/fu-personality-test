@@ -1,0 +1,360 @@
+{
+  "nationalities": {
+    "Hungarian": 0,
+    "Mansi": 0,
+    "Khanty": 0,
+    "Komi": 0,
+    "Permyak": 0,
+    "Udmurt": 0,
+    "Mari": 0,
+    "Erzya": 0,
+    "Moksha": 0,
+    "Sami": 0,
+    "Estonian": 0,
+    "Veps": 0,
+    "Karelian": 0,
+    "Finnish": 0
+  },
+  "test_questions": [
+    {
+      "id": 1,
+      "instruction_text": "Hol lakna legszívesebben?",
+      "answer_options": [
+        {
+          "answer": "Egy kis faluban.",
+          "update": ["Komi", "Udmurt", "Mari", "Erzya"]
+        },
+        {
+          "answer": "Egy kis kunyhóban az erdő sűrűjébe rejtve.",
+          "update": ["Mansi", "Khanty", "Sami"]
+        },
+        { "answer": "Egy mocsárban.", "update": ["Permyak", "Veps", "Karelian"] },
+        { "answer": "Nagyvárosban.", "update": ["Hungarian"] },
+        { "answer": "Kisvárosban.", "update": ["Finnish"] },
+        { "answer": "A tengerparton.", "update": ["Estonian"] }
+      ]
+    },
+    {
+      "id": 2,
+      "instruction_text": "Ön kedveli...",
+      "answer_options": [
+        { "answer": "... a tömeget", "update": ["Hungarian"] },
+        {
+          "answer": "... ha egy nagyobb csoport emberrel lehet együtt.",
+          "update": ["Udmurt", "Mari", "Erzya", "Moksha", "Estonian"]
+        },
+        {
+          "answer": "... a családi kört",
+          "update": ["Mansi", "Khanty", "Komi", "Permyak", "Sami"]
+        },
+        { "answer": "... ha egyedül lehet.", "update": ["Veps", "Karelian", "Finnish"] }
+      ]
+    },
+    {
+      "id": 3,
+      "instruction_text": "Ön hogyan jellemezné leginkább saját magát?",
+      "answer_options": [
+        {
+          "answer": "Szeretem, ha békén hagynak, kellemetlenül érzem magam, ha idegenekkel találkozom, főleg, ha beszélgetnem kell velük.",
+          "update": ["Finnish"]
+        },
+        {
+          "answer": "Ha dalolhatok, jobb a kedvem és kedvesebb is vagyok, főleg nyáron!",
+          "update": ["Estonian"]
+        },
+        {
+          "answer": "Szeretem kimutatni és átélni az érzéseimet, de hallgatok róluk, ha kell. Nagyon heves tudok lenni!",
+          "update": ["Hungarian", "Erzya", "Moksha"]
+        },
+        {
+          "answer": "Megtanultam uralkodni magamon, és hogy mit illik tudatni magamról a külvilágról, de azért érzékeny a lelkem.",
+          "update": ["Komi", "Permyak", "Udmurt"]
+        },
+        {
+          "answer": "Mindig vidám, optimista és segítőkész vagyok.",
+          "update": ["Mansi", "Khanty"]
+        },
+        {
+          "answer": "fSzeretem hallatni a hangom, még akkor is, ha tudom, hogy annak ára van, de nem hátrálok meg.",
+          "update": ["Sami"]
+        },
+        {
+          "answer": "Általában kedves, béketűrő ember vagyok, de ha kihoznak a sodromból, nagyon tudok hadakozni!",
+          "update": ["Veps"]
+        },
+        {
+          "answer": "Inkább szemlélődöm, a bennem dúló csatákat megpróbálom kreatívan levezetni.",
+          "update": ["Mari"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "instruction_text": "Mi a helyzet a szúnyogokkal?",
+      "answer_options": [
+        { "answer": "Nem, nem, soha!", "update": ["Hungarian"] },
+        {
+          "answer": "Kicsit idegesítőek, de annyira nem érdekel...",
+          "update": [
+            "Komi",
+            "Permyak",
+            "Udmurt",
+            "Mari",
+            "Erzya",
+            "Moksha",
+            "Estonian",
+            "Veps",
+            "Karelian",
+            "Finnish"
+          ]
+        },
+        {
+          "answer": "Van rájuk megfelelő ellenszerem.",
+          "update": ["Khanty", "Mansi", "Sami"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "instruction_text": "Mi az Ön kedvenc állata az alábbiak közül?",
+      "answer_options": [
+        { "answer": "Mókus", "update": ["Udmurt"] },
+        {
+          "answer": "Szarvas",
+          "update": ["Mansi", "Khanty", "Mansi", "Sami"]
+        },
+        { "answer": "Medve", "update": ["Permyak", "Erzya", "Moksha"] },
+        { "answer": "Hattyú", "update": ["Karelian", "Finnish"] },
+        { "answer": "Nyári lúd", "update": ["Estonian", "Veps"] },
+        { "answer": "Ló", "update": ["Komi"] },
+        { "answer": "Kerecsensólyom", "update": ["Hungarian"] }
+      ]
+    },
+    {
+      "id": 6,
+      "instruction_text": "Mennyire képes elviselni a hideget?",
+      "answer_options": [
+        {
+          "answer": "Igazi hidegtűrő vagyok, a jég hátán is megélek!",
+          "update": [
+            "Mansi",
+            "Khanty",
+            "Komi",
+            "Permyak",
+            "Udmurt",
+            "Sami",
+            "Veps",
+            "Karelian",
+            "Finnish"
+          ]
+        },
+        {
+          "answer": "Hát nem igazán... inkább meleg, mint hideg!",
+          "update": ["Hungarian", "Mari", "Erzya", "Moksha", "Estonian"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "instruction_text": "Hogyan szereti a húst?",
+      "answer_options": [
+        {
+          "answer": "Sülve-főve.",
+          "update": [
+            "Hungarian",
+            "Permyak",
+            "Udmurt",
+            "Khanty",
+            "Mari",
+            "Erzya",
+            "Moksha",
+            "Estonian",
+            "Veps",
+            "Karelian"
+          ]
+        },
+        { "answer": "Nyersen.", "update": ["Mansi", "Sami"] },
+        { "answer": "Vega vagyok.", "update": ["Finnish"] }
+      ]
+    },
+    {
+      "id": 8,
+      "instruction_text": "What kind of meat do you prefer (if any)?",
+      "answer_options": [
+        {
+          "answer": "Fish (beaver doesn’t count as fish)",
+          "update": ["Estonian", "Veps", "Karelian", "Finnish"]
+        },
+        { "answer": "Reindeer", "update": ["Mansi", "Khanty", "Sami"] },
+        { "answer": "Red meat", "update": ["Hungarian"] },
+        { "answer": "Poultry", "update": ["Udmurt", "Mari"] },
+        {
+          "answer": "Anything as long as it’s baked in dough",
+          "update": ["Komi", "Permyak", "Erzya", "Moksha"]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "instruction_text": "How do you like fricatives (like ch and sh and dj)?",
+      "answer_options": [
+        {
+          "answer": "they’re the champions!",
+          "update": [
+            "Hungarian",
+            "Mansi",
+            "Khanty",
+            "Komi",
+            "Permyak",
+            "Udmurt",
+            "Mari",
+            "Erzya",
+            "Moksha",
+            "Sami"
+          ]
+        },
+        {
+          "answer": "I don’t really know them…",
+          "update": ["Estonian", "Veps", "Karelian"]
+        },
+        {
+          "answer": "They’re ugly and hard to pronounce.",
+          "update": ["Finnish"]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "instruction_text": "Do you like the f sound?",
+      "answer_options": [
+        {
+          "answer": "No.",
+          "update": ["Estonian", "Veps", "Karelian", "Finnish"]
+        },
+        {
+          "answer": "Excuse me, what was it, p?",
+          "update": ["Mansi", "Khanty", "Komi", "Permyak", "Udmurt", "Mari"]
+        },
+        {
+          "answer": "I’m quite fond of it.",
+          "update": ["Hungarian", "Erzya", "Moksha", "Sami"]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "instruction_text": "What’s your attitude to religion?",
+      "answer_options": [
+        { "answer": "No, thanks.", "update": ["Estonian"] },
+        {
+          "answer": "I’m a pagan, I believe in the Old Gods.",
+          "update": ["Khanty", "Mari"]
+        },
+        { "answer": "I’m very religious!", "update": ["Veps", "Komi"] },
+        { "answer": "I’m not very interested…", "update": ["Udmurt"] },
+        {
+          "answer": "That is a cool thing, with icons, and holy corner, and blessings…",
+          "update": ["Erzya", "Moksha"]
+        },
+        {
+          "answer": "I’m a synchretist, I follow more than one religion.",
+          "update": ["Mansi", "Karelian", "Permyak"]
+        },
+        { "answer": "I’m kind of a Protestant.", "update": ["Finnish"] },
+        { "answer": "I’m a Catholic.", "update": ["Hungarian"] }
+      ]
+    },
+    {
+      "id": 12,
+      "instruction_text": "What music do you like listening to?",
+      "answer_options": [
+        { "answer": "Heavy metal, sadness, suicide…", "update": ["Finnish"] },
+        {
+          "answer": "Hipster-indie-folk.",
+          "update": ["Udmurt", "Estonian", "Veps", "Karelian"]
+        },
+        {
+          "answer": "Anything with a melody and rhythm!",
+          "update": ["Hungarian"]
+        },
+        {
+          "answer": "Disco and ethnopop, mainly.",
+          "update": ["Komi", "Permyak", "Mari", "Erzya", "Moksha"]
+        },
+        {
+          "answer": "Pella, capella, acapella.",
+          "update": ["Mansi", "Khanty"]
+        },
+        {
+          "answer": "Yoiks, you know, that is not yodeling… hanenneloyleloyleloyla-haneneloyleloyla…",
+          "update": ["Sami"]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "instruction_text": "How do you usually dress?",
+      "answer_options": [
+        {
+          "answer": "Hipster, etno, gothic, alternative, subculture… something like that",
+          "update": ["Hungarian", "Sami", "Estonian", "Finnish"]
+        },
+        {
+          "answer": "I’m a fashionista, brands and trends are my bread and butter!",
+          "update": ["Komi", "Permyak", "Moksha"]
+        },
+        {
+          "answer": "I follow trends but I like mixing them up with traditional elements.",
+          "update": ["Udmurt", "Mari", "Erzya", "Veps", "Karelian"]
+        },
+        { "answer": "I don’t care at all.", "update": ["Mansi", "Khanty"] }
+      ]
+    },
+    {
+      "id": 14,
+      "instruction_text": "How about bureaucracy?",
+      "answer_options": [
+        {
+          "answer": "Absolutely necessary.",
+          "update": [
+            "Hungarian",
+            "Mansi",
+            "Khanty",
+            "Komi",
+            "Permyak",
+            "Udmurt",
+            "Mari",
+            "Erzya",
+            "Moksha",
+            "Veps",
+            "Karelian"
+          ]
+        },
+        { "answer": "Stamps? What are those?", "update": ["Finnish", "Sami"] },
+        { "answer": "All I need is a card and Wi-Fi.", "update": ["Estonian"] }
+      ]
+    },
+    {
+      "id": 15,
+      "instruction_text": "East or West?",
+      "answer_options": [
+        {
+          "answer": "East.",
+          "update": [
+            "Mansi",
+            "Khanty",
+            "Komi",
+            "Permyak",
+            "Udmurt",
+            "Mari",
+            "Erzya",
+            "Moksha",
+            "Veps"
+          ]
+        },
+        { "answer": "West.", "update": ["Sami", "Estonian", "Finnish"] },
+        { "answer": "Somewhere in between.", "update": ["Hungarian"] }
+      ]
+    }
+  ]
+}
