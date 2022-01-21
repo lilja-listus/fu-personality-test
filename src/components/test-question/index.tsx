@@ -3,10 +3,6 @@ import "./index.scss";
 import TestButton from "../test-button";
 
 class TestQuestion extends Component<any, any> {
-  constructor(props: any) {
-    super(props);
-  }
-
   handleClick() {
     this.props.showNextQuestionHandler();
   }

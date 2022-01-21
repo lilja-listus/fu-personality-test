@@ -179,27 +179,27 @@
     },
     {
       "id": 8,
-      "instruction_text": "What kind of meat do you prefer (if any)?",
+      "instruction_text": "Milyen fajta húst szeret?",
       "answer_options": [
         {
-          "answer": "Fish (beaver doesn’t count as fish)",
+          "answer": "Halat (a hód nem számít halnak).",
           "update": ["Estonian", "Veps", "Karelian", "Finnish"]
         },
-        { "answer": "Reindeer", "update": ["Mansi", "Khanty", "Sami"] },
-        { "answer": "Red meat", "update": ["Hungarian"] },
-        { "answer": "Poultry", "update": ["Udmurt", "Mari"] },
+        { "answer": "Rénszarvast.", "update": ["Mansi", "Khanty", "Sami"] },
+        { "answer": "Vörös húst", "update": ["Hungarian"] },
+        { "answer": "Szárnyasokat.", "update": ["Udmurt", "Mari"] },
         {
-          "answer": "Anything as long as it’s baked in dough",
+          "answer": "Mindegy, csak tésztában süljön.",
           "update": ["Komi", "Permyak", "Erzya", "Moksha"]
         }
       ]
     },
     {
       "id": 9,
-      "instruction_text": "How do you like fricatives (like ch and sh and dj)?",
+      "instruction_text": "Kedveli Ön az affrikátákat?",
       "answer_options": [
         {
-          "answer": "they’re the champions!",
+          "answer": "Csakis, csodásak!",
           "update": [
             "Hungarian",
             "Mansi",
@@ -214,59 +214,59 @@
           ]
         },
         {
-          "answer": "I don’t really know them…",
+          "answer": "Nem sokat mondanak nekem…",
           "update": ["Estonian", "Veps", "Karelian"]
         },
         {
-          "answer": "They’re ugly and hard to pronounce.",
+          "answer": "Nem, rémes, kiejthetetlen hangok…",
           "update": ["Finnish"]
         }
       ]
     },
     {
       "id": 10,
-      "instruction_text": "Do you like the f sound?",
+      "instruction_text": "Kedveli-e Ön az ’f’ hangot?",
       "answer_options": [
         {
-          "answer": "No.",
+          "answer": "Nem.",
           "update": ["Estonian", "Veps", "Karelian", "Finnish"]
         },
         {
-          "answer": "Excuse me, what was it, p?",
+          "answer": "Tessék? Hogy mondta, pé?",
           "update": ["Mansi", "Khanty", "Komi", "Permyak", "Udmurt", "Mari"]
         },
         {
-          "answer": "I’m quite fond of it.",
+          "answer": "Igen, folyton használom...",
           "update": ["Hungarian", "Erzya", "Moksha", "Sami"]
         }
       ]
     },
     {
       "id": 11,
-      "instruction_text": "What’s your attitude to religion?",
+      "instruction_text": "Hogy viszonyul Ön a valláshoz?",
       "answer_options": [
-        { "answer": "No, thanks.", "update": ["Estonian"] },
+        { "answer": "Nem, köszönöm.", "update": ["Estonian"] },
         {
-          "answer": "I’m a pagan, I believe in the Old Gods.",
+          "answer": "Pogány vagyok, az ősi istenekben hiszek.",
           "update": ["Khanty", "Mari"]
         },
-        { "answer": "I’m very religious!", "update": ["Veps", "Komi"] },
-        { "answer": "I’m not very interested…", "update": ["Udmurt"] },
+        { "answer": "Nagyon vallásos vagyok!", "update": ["Veps", "Komi"] },
+        { "answer": "Annyira nem érdekel...", "update": ["Udmurt"] },
         {
-          "answer": "That is a cool thing, with icons, and holy corner, and blessings…",
+          "answer": "Amolyan menő dolog, kis házi oltárral, némi tömjénnel meg sok áldással...",
           "update": ["Erzya", "Moksha"]
         },
         {
-          "answer": "I’m a synchretist, I follow more than one religion.",
+          "answer": "Szinkretista vagyok, egyszerre több vallás tanaiban hiszek.",
           "update": ["Mansi", "Karelian", "Permyak"]
         },
-        { "answer": "I’m kind of a Protestant.", "update": ["Finnish"] },
-        { "answer": "I’m a Catholic.", "update": ["Hungarian"] }
+        { "answer": "A protestánsokkal tartanék.", "update": ["Finnish"] },
+        { "answer": "A katolicizmussal szimpatizálok.", "update": ["Hungarian"] }
       ]
     },
     {
       "id": 12,
-      "instruction_text": "What music do you like listening to?",
+      "instruction_text": "Milyen zenét hallgat szívesen?",
       "answer_options": [
         { "answer": "Heavy metal, sadness, suicide…", "update": ["Finnish"] },
         {
