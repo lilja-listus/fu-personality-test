@@ -268,46 +268,46 @@
       "id": 12,
       "instruction_text": "Milyen zenét hallgat szívesen?",
       "answer_options": [
-        { "answer": "Heavy metal, sadness, suicide…", "update": ["Finnish"] },
+        { "answer": "Hevimetál, búskomorság, érfelvágós.", "update": ["Finnish"] },
         {
-          "answer": "Hipster-indie-folk.",
+          "answer": "Hipszter-indie-folkos.",
           "update": ["Udmurt", "Estonian", "Veps", "Karelian"]
         },
         {
-          "answer": "Anything with a melody and rhythm!",
+          "answer": "Bármit, aminek dallama és ritmusa van!",
           "update": ["Hungarian"]
         },
         {
-          "answer": "Disco and ethnopop, mainly.",
+          "answer": "Diszkóban és etnopopban utazom.",
           "update": ["Komi", "Permyak", "Mari", "Erzya", "Moksha"]
         },
         {
-          "answer": "Pella, capella, acapella.",
+          "answer": "Pella, kapella, akapella.",
           "update": ["Mansi", "Khanty"]
         },
         {
-          "answer": "Yoiks, you know, that is not yodeling… hanenneloyleloyleloyla-haneneloyleloyla…",
+          "answer": "Jojkákat, tudja, ami nem olyan, mint a jódli... hanennelojlelojlelojla-hanenelojlelojla...",
           "update": ["Sami"]
         }
       ]
     },
     {
       "id": 13,
-      "instruction_text": "How do you usually dress?",
+      "instruction_text": "Hogyan öltözködik?",
       "answer_options": [
         {
-          "answer": "Hipster, etno, gothic, alternative, subculture… something like that",
+          "answer": "Hipszter, népies, gót, alternatív, szubkulturális… Nagyjából így jellemezném.",
           "update": ["Hungarian", "Sami", "Estonian", "Finnish"]
         },
         {
-          "answer": "I’m a fashionista, brands and trends are my bread and butter!",
+          "answer": "Minél divatosabb, drágább a ruhám, a cipőm, a kiegészítőm, annál jobb.",
           "update": ["Komi", "Permyak", "Moksha"]
         },
         {
-          "answer": "I follow trends but I like mixing them up with traditional elements.",
+          "answer": "Követem a kortárs trendeket, de azért belecsempészek némi népit, hagyományosat!",
           "update": ["Udmurt", "Mari", "Erzya", "Veps", "Karelian"]
         },
-        { "answer": "I don’t care at all.", "update": ["Mansi", "Khanty"] }
+        { "answer": "Bármit fölveszek...", "update": ["Mansi", "Khanty"] }
       ]
     },
     {
