@@ -21,33 +21,33 @@
       "instruction_text": "Where would you rather live?",
       "answer_options": [
         {
-          "answer": "in a small village",
+          "answer": "In a small village",
           "update": ["Komi", "Udmurt", "Mari", "Erzya"]
         },
         {
-          "answer": "in a cottage deep in the forest",
+          "answer": "In a cottage deep in the forest",
           "update": ["Mansi", "Khanty", "Sami"]
         },
-        { "answer": "in a swamp", "update": ["Permyak", "Veps", "Karelian"] },
-        { "answer": "in a big city", "update": ["Hungarian"] },
-        { "answer": "in a small town", "update": ["Finnish"] },
-        { "answer": "by the sea", "update": ["Estonian"] }
+        { "answer": "In a swamp", "update": ["Permyak", "Veps", "Karelian"] },
+        { "answer": "In a big city", "update": ["Hungarian"] },
+        { "answer": "In a small town", "update": ["Finnish"] },
+        { "answer": "By the sea", "update": ["Estonian"] }
       ]
     },
     {
       "id": 2,
       "instruction_text": "You prefer…",
       "answer_options": [
-        { "answer": "being part of a crowd", "update": ["Hungarian"] },
+        { "answer": "Being part of a crowd", "update": ["Hungarian"] },
         {
-          "answer": "a group of friends and acquaintances",
+          "answer": "A group of friends and acquaintances",
           "update": ["Udmurt", "Mari", "Erzya", "Moksha", "Estonian"]
         },
         {
-          "answer": "family circle",
+          "answer": "Family circle",
           "update": ["Mansi", "Khanty", "Komi", "Permyak", "Sami"]
         },
-        { "answer": "being alone", "update": ["Veps", "Karelian", "Finnish"] }
+        { "answer": "Being alone", "update": ["Veps", "Karelian", "Finnish"] }
       ]
     },
     {
@@ -159,7 +159,7 @@
       "instruction_text": "How do you like meat?",
       "answer_options": [
         {
-          "answer": "well done",
+          "answer": "Well done",
           "update": [
             "Hungarian",
             "Permyak",
@@ -173,7 +173,7 @@
             "Karelian"
           ]
         },
-        { "answer": "a little raw", "update": ["Mansi", "Sami"] },
+        { "answer": "A little raw", "update": ["Mansi", "Sami"] },
         { "answer": "I’m vegetarian", "update": ["Finnish"] }
       ]
     },
@@ -199,7 +199,7 @@
       "instruction_text": "How do you like fricatives (like ch and sh and dj)?",
       "answer_options": [
         {
-          "answer": "they’re the champions!",
+          "answer": "They’re the champions!",
           "update": [
             "Hungarian",
             "Mansi",
