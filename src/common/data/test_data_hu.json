@@ -15,11 +15,11 @@
     "Karelian": 0,
     "Finnish": 0
   },
-  "test_questions": [
+  "testQuestions": [
     {
       "id": 1,
-      "instruction_text": "Hol lakna legszívesebben?",
-      "answer_options": [
+      "instructionText": "Hol lakna legszívesebben?",
+      "answerOptions": [
         {
           "answer": "Egy kis faluban.",
           "update": ["Komi", "Udmurt", "Mari", "Erzya"]
@@ -36,8 +36,8 @@
     },
     {
       "id": 2,
-      "instruction_text": "Ön kedveli...",
-      "answer_options": [
+      "instructionText": "Ön kedveli...",
+      "answerOptions": [
         { "answer": "... a tömeget", "update": ["Hungarian"] },
         {
           "answer": "... ha egy nagyobb csoport emberrel lehet együtt.",
@@ -52,8 +52,8 @@
     },
     {
       "id": 3,
-      "instruction_text": "Ön hogyan jellemezné leginkább saját magát?",
-      "answer_options": [
+      "instructionText": "Ön hogyan jellemezné leginkább saját magát?",
+      "answerOptions": [
         {
           "answer": "Szeretem, ha békén hagynak, kellemetlenül érzem magam, ha idegenekkel találkozom, főleg, ha beszélgetnem kell velük.",
           "update": ["Finnish"]
@@ -90,8 +90,8 @@
     },
     {
       "id": 4,
-      "instruction_text": "Mi a helyzet a szúnyogokkal?",
-      "answer_options": [
+      "instructionText": "Mi a helyzet a szúnyogokkal?",
+      "answerOptions": [
         { "answer": "Nem, nem, soha!", "update": ["Hungarian"] },
         {
           "answer": "Kicsit idegesítőek, de annyira nem érdekel...",
@@ -116,8 +116,8 @@
     },
     {
       "id": 5,
-      "instruction_text": "Mi az Ön kedvenc állata az alábbiak közül?",
-      "answer_options": [
+      "instructionText": "Mi az Ön kedvenc állata az alábbiak közül?",
+      "answerOptions": [
         { "answer": "Mókus", "update": ["Udmurt"] },
         {
           "answer": "Szarvas",
@@ -132,8 +132,8 @@
     },
     {
       "id": 6,
-      "instruction_text": "Mennyire képes elviselni a hideget?",
-      "answer_options": [
+      "instructionText": "Mennyire képes elviselni a hideget?",
+      "answerOptions": [
         {
           "answer": "Igazi hidegtűrő vagyok, a jég hátán is megélek!",
           "update": [
@@ -156,8 +156,8 @@
     },
     {
       "id": 7,
-      "instruction_text": "Hogyan szereti a húst?",
-      "answer_options": [
+      "instructionText": "Hogyan szereti a húst?",
+      "answerOptions": [
         {
           "answer": "Sülve-főve.",
           "update": [
@@ -179,8 +179,8 @@
     },
     {
       "id": 8,
-      "instruction_text": "Milyen fajta húst szeret?",
-      "answer_options": [
+      "instructionText": "Milyen fajta húst szeret?",
+      "answerOptions": [
         {
           "answer": "Halat (a hód nem számít halnak).",
           "update": ["Estonian", "Veps", "Karelian", "Finnish"]
@@ -196,8 +196,8 @@
     },
     {
       "id": 9,
-      "instruction_text": "Kedveli Ön az affrikátákat?",
-      "answer_options": [
+      "instructionText": "Kedveli Ön az affrikátákat?",
+      "answerOptions": [
         {
           "answer": "Csakis, csodásak!",
           "update": [
@@ -225,8 +225,8 @@
     },
     {
       "id": 10,
-      "instruction_text": "Kedveli-e Ön az ’f’ hangot?",
-      "answer_options": [
+      "instructionText": "Kedveli-e Ön az ’f’ hangot?",
+      "answerOptions": [
         {
           "answer": "Nem.",
           "update": ["Estonian", "Veps", "Karelian", "Finnish"]
@@ -243,8 +243,8 @@
     },
     {
       "id": 11,
-      "instruction_text": "Hogy viszonyul Ön a valláshoz?",
-      "answer_options": [
+      "instructionText": "Hogy viszonyul Ön a valláshoz?",
+      "answerOptions": [
         { "answer": "Nem, köszönöm.", "update": ["Estonian"] },
         {
           "answer": "Pogány vagyok, az ősi istenekben hiszek.",
@@ -266,8 +266,8 @@
     },
     {
       "id": 12,
-      "instruction_text": "Milyen zenét hallgat szívesen?",
-      "answer_options": [
+      "instructionText": "Milyen zenét hallgat szívesen?",
+      "answerOptions": [
         { "answer": "Hevimetál, búskomorság, érfelvágós.", "update": ["Finnish"] },
         {
           "answer": "Hipszter-indie-folkos.",
@@ -293,8 +293,8 @@
     },
     {
       "id": 13,
-      "instruction_text": "Hogyan öltözködik?",
-      "answer_options": [
+      "instructionText": "Hogyan öltözködik?",
+      "answerOptions": [
         {
           "answer": "Hipszter, népies, gót, alternatív, szubkulturális… Nagyjából így jellemezném.",
           "update": ["Hungarian", "Sami", "Estonian", "Finnish"]
@@ -312,8 +312,8 @@
     },
     {
       "id": 14,
-      "instruction_text": "How about bureaucracy?",
-      "answer_options": [
+      "instructionText": "How about bureaucracy?",
+      "answerOptions": [
         {
           "answer": "Absolutely necessary.",
           "update": [
@@ -336,8 +336,8 @@
     },
     {
       "id": 15,
-      "instruction_text": "East or West?",
-      "answer_options": [
+      "instructionText": "East or West?",
+      "answerOptions": [
         {
           "answer": "East.",
           "update": [

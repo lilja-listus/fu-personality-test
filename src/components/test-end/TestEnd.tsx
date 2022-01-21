@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./index.scss";
 import { findFinalAnswer } from "../../common/services/count-answer";
 import { Button } from "@material-ui/core";
@@ -17,6 +17,8 @@ import karelia from '../../img/karelia.png'
 import komi from '../../img/komi.png'
 import veps from '../../img/veps.svg'
 
+
+
 const flagsMapping: any = {
   "Hungarian": hun,
   "Mansi": mansi,
@@ -34,46 +36,46 @@ const flagsMapping: any = {
   "Finnish": fin
 
 }
+interface TestEndProps {
+  resetClickHandler: () => void,
+  nationalities: string[]
+}
 
-class TestEnd extends Component<any, any> {
-  handleResetClick() {
-    this.props.resetClickHandler();
+
+const TestEnd: React.FC<TestEndProps> = ({ resetClickHandler, nationalities }) => {
+
+  const finalAnswers = findFinalAnswer(nationalities);
+
+  let output = "";
+  const picLinks = [];
+
+  finalAnswers.forEach(ans => picLinks.push(ans))
+
+  if (finalAnswers.length > 1) {
+    const last = finalAnswers.pop();
+    output += finalAnswers.join(", ") + " or " + last;
+  } else {
+    output += finalAnswers[0];
   }
 
-  showResult() {}
+  return (
+    <div className="output">
+      <p className="text">You are most probably:</p>
+      <p>{output}</p>
+      {finalAnswers.map((ans: string) => <img key={ans} src={flagsMapping[ans]} alt={ans} />)}
 
-  render() {
-    const finalAnswers = findFinalAnswer(this.props.nationalities);
+      <Button
+        variant="contained"
+        color="default"
+        href="#"
+        onClick={resetClickHandler}
+      >
+        Reset The Test
+      </Button>
+    </div>
 
-    let output = "";
-    const picLinks = [];
 
-    finalAnswers.forEach(ans => picLinks.push(ans))
-
-    if (finalAnswers.length > 1) {
-      const last = finalAnswers.pop();
-      output += finalAnswers.join(", ") + " or " + last;
-    } else {
-      output += finalAnswers[0];
-    }
-
-    return (
-  
-        <div className="output"> 
-        <p className="text">You are most probably:</p>
-        <p>{output}</p>
-        {finalAnswers.map(ans => <img  src={flagsMapping[ans]} alt={ans} />)}
-        <Button
-          variant="contained"
-          color="default"
-          href="#"
-          onClick={this.handleResetClick.bind(this)}
-        >
-          Reset The Test
-        </Button>
-      </div>
-    );
-  }
+  )
 }
 
 export default TestEnd;

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Test from "./../components/test/index";
+import Test from "../components/test/Test";
 import "./index.scss";
 
 class App extends Component<any, any> {

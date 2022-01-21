@@ -15,11 +15,11 @@
     "Karelian": 0,
     "Finnish": 0
   },
-  "test_questions": [
+  "testQuestions": [
     {
       "id": 1,
-      "instruction_text": "Where would you rather live?",
-      "answer_options": [
+      "instructionText": "Where would you rather live?",
+      "answerOptions": [
         {
           "answer": "In a small village",
           "update": ["Komi", "Udmurt", "Mari", "Erzya"]
@@ -36,8 +36,8 @@
     },
     {
       "id": 2,
-      "instruction_text": "You prefer…",
-      "answer_options": [
+      "instructionText": "You prefer…",
+      "answerOptions": [
         { "answer": "Being part of a crowd", "update": ["Hungarian"] },
         {
           "answer": "A group of friends and acquaintances",
@@ -52,8 +52,8 @@
     },
     {
       "id": 3,
-      "instruction_text": "How would you describe yourself?",
-      "answer_options": [
+      "instructionText": "How would you describe yourself?",
+      "answerOptions": [
         {
           "answer": "I like being left in peace, and strangers intimidate me, small talk is horror.",
           "update": ["Finnish"]
@@ -90,8 +90,8 @@
     },
     {
       "id": 4,
-      "instruction_text": "How about mosquitos?",
-      "answer_options": [
+      "instructionText": "How about mosquitos?",
+      "answerOptions": [
         { "answer": "No, nay, never!", "update": ["Hungarian"] },
         {
           "answer": "They’re kind of irritating, but whatever",
@@ -116,8 +116,8 @@
     },
     {
       "id": 5,
-      "instruction_text": "Which of these animals do you like the most?",
-      "answer_options": [
+      "instructionText": "Which of these animals do you like the most?",
+      "answerOptions": [
         { "answer": "Squirrel", "update": ["Udmurt"] },
         {
           "answer": "Reindeer",
@@ -132,8 +132,8 @@
     },
     {
       "id": 6,
-      "instruction_text": "How do you handle cold?",
-      "answer_options": [
+      "instructionText": "How do you handle cold?",
+      "answerOptions": [
         {
           "answer": "Cold never bothered me…",
           "update": [
@@ -156,8 +156,8 @@
     },
     {
       "id": 7,
-      "instruction_text": "How do you like meat?",
-      "answer_options": [
+      "instructionText": "How do you like meat?",
+      "answerOptions": [
         {
           "answer": "Well done",
           "update": [
@@ -179,8 +179,8 @@
     },
     {
       "id": 8,
-      "instruction_text": "What kind of meat do you prefer (if any)?",
-      "answer_options": [
+      "instructionText": "What kind of meat do you prefer (if any)?",
+      "answerOptions": [
         {
           "answer": "Fish (beaver doesn’t count as fish)",
           "update": ["Estonian", "Veps", "Karelian", "Finnish"]
@@ -196,8 +196,8 @@
     },
     {
       "id": 9,
-      "instruction_text": "How do you like fricatives (like ch and sh and dj)?",
-      "answer_options": [
+      "instructionText": "How do you like fricatives (like ch and sh and dj)?",
+      "answerOptions": [
         {
           "answer": "They’re the champions!",
           "update": [
@@ -225,8 +225,8 @@
     },
     {
       "id": 10,
-      "instruction_text": "Do you like the f sound?",
-      "answer_options": [
+      "instructionText": "Do you like the f sound?",
+      "answerOptions": [
         {
           "answer": "No.",
           "update": ["Estonian", "Veps", "Karelian", "Finnish"]
@@ -243,8 +243,8 @@
     },
     {
       "id": 11,
-      "instruction_text": "What’s your attitude to religion?",
-      "answer_options": [
+      "instructionText": "What’s your attitude to religion?",
+      "answerOptions": [
         { "answer": "No, thanks.", "update": ["Estonian"] },
         {
           "answer": "I’m a pagan, I believe in the Old Gods.",
@@ -266,8 +266,8 @@
     },
     {
       "id": 12,
-      "instruction_text": "What music do you like listening to?",
-      "answer_options": [
+      "instructionText": "What music do you like listening to?",
+      "answerOptions": [
         { "answer": "Heavy metal, sadness, suicide…", "update": ["Finnish"] },
         {
           "answer": "Hipster-indie-folk.",
@@ -293,8 +293,8 @@
     },
     {
       "id": 13,
-      "instruction_text": "How do you usually dress?",
-      "answer_options": [
+      "instructionText": "How do you usually dress?",
+      "answerOptions": [
         {
           "answer": "Hipster, etno, gothic, alternative, subculture… something like that",
           "update": ["Hungarian", "Sami", "Estonian", "Finnish"]
@@ -312,8 +312,8 @@
     },
     {
       "id": 14,
-      "instruction_text": "How about bureaucracy?",
-      "answer_options": [
+      "instructionText": "How about bureaucracy?",
+      "answerOptions": [
         {
           "answer": "Absolutely necessary.",
           "update": [
@@ -336,8 +336,8 @@
     },
     {
       "id": 15,
-      "instruction_text": "East or West?",
-      "answer_options": [
+      "instructionText": "East or West?",
+      "answerOptions": [
         {
           "answer": "East.",
           "update": [

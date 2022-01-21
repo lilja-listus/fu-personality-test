@@ -48,24 +48,28 @@ function CustomButton(props: ButtonUnstyledProps) {
   return <ButtonUnstyled {...props} component={CustomButtonRoot} />;
 }
 
-class QuestionButton extends Component<any, any> {
-  handleClick() {
-    this.props.clickHandler(this.props.button_text);
-    this.props.selectAnswer(this.props.answer);
-  }
-  render() {
-    return (
-      <div>
-        <div className="button">
-          <CustomButton
-            onClick={this.handleClick.bind(this)}
-          >
-            {this.props.button_text}
-          </CustomButton>
-        </div>
-      </div>
-    );
-  }
+interface IQuestionButtonProps {
+  clickHandler: (buttonText: string) => void, selectAnswer: (answer: string | number) => void, buttonText: string, answer: string | number
 }
+
+
+const QuestionButton: React.FC<IQuestionButtonProps> = ({ clickHandler, selectAnswer, buttonText, answer }) => {
+
+
+  const handleClick = () => {
+    clickHandler(buttonText);
+    selectAnswer(answer);
+  }
+
+  return (<div className="button">
+    <CustomButton
+      onClick={handleClick}
+    >
+      {buttonText}
+    </CustomButton>
+  </div>)
+}
+
+
 
 export default QuestionButton;
