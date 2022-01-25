@@ -16,7 +16,7 @@ import udmurt from '../../img/udmurt.png'
 import karelia from '../../img/karelia.png'
 import komi from '../../img/komi.png'
 import veps from '../../img/veps.svg'
-
+import { useLanguage } from "../../common/LanguageContext";
 
 
 const flagsMapping: any = {
@@ -58,9 +58,15 @@ const TestEnd: React.FC<TestEndProps> = ({ resetClickHandler, nationalities }) =
     output += finalAnswers[0];
   }
 
+  const { language } = useLanguage()
+
+
+  const buttonText = language === 'eng' ? 'You are most probably: ' : 'Du bist'
+  const resetText = language === 'eng' ? 'Reset The Test ' : 'Resetti'
+
   return (
     <div className="output">
-      <p className="text">You are most probably:</p>
+      <p className="text">{buttonText}</p>
       <p>{output}</p>
       {finalAnswers.map((ans: string) => <img key={ans} src={flagsMapping[ans]} alt={ans} />)}
 
@@ -70,7 +76,7 @@ const TestEnd: React.FC<TestEndProps> = ({ resetClickHandler, nationalities }) =
         href="#"
         onClick={resetClickHandler}
       >
-        Reset The Test
+        {resetText}
       </Button>
     </div>
 
