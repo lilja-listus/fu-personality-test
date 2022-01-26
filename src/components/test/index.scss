@@ -3,3 +3,9 @@ body {
   justify-content: center;
   margin: 0 auto;
 }
+
+.languageButtons{
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+}

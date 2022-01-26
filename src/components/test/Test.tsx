@@ -4,6 +4,7 @@ import TestQuestion from "../test-question/TestQuestion";
 import "./index.scss";
 import { countAnswers } from "../../common/services/count-answer";
 import { useLanguage, useLanguageUpdate } from "../../common/LanguageContext";
+import Button from '@mui/material/Button';
 
 let testDataEn = require("../../common/data/test_data.json");
 let testDataHu = require("../../common/data/test_data_hu.json");
@@ -44,28 +45,33 @@ const Test: React.FC = () => {
 
   const showNextQuestionHandler = () => setTestPosition(testPosition + 1)
 
-  return (<div>
-    {isTestEnd ? (
-      <TestEnd
-        resetClickHandler={resetClickHandler}
-        nationalities={testData.nationalities}
-      />
-    ) : (
-      <>
-        <button onClick={() => changeLanguage('eng')}>English</button>
-        <button onClick={() => changeLanguage('magyar')}>Magyar</button>
-        <TestQuestion
-          testQuestion={
-            testData.testQuestions[testPosition - 1]
-          }
-          showNextQuestionHandler={showNextQuestionHandler}
-          selectAnswer={selectAnswer}
-        />
-      </>
+  return (
+    <div style={{ width: '700px' }}>
+      <div className="languageButtons">
+        <Button color="primary" onClick={() => changeLanguage('eng')} style={{ width: '15px', margin: '10px' }}>English</Button>
+        <Button color="primary" onClick={() => changeLanguage('magyar')} style={{ width: '15px', margin: '10px' }}>Magyar</Button>
+      </div >
+      <div>
+        {isTestEnd ? (
+          <TestEnd
+            resetClickHandler={resetClickHandler}
+            nationalities={testData.nationalities}
+          />
+        ) : (
+          <>
 
-    )
-    }
-  </div >);
+            <TestQuestion
+              testQuestion={
+                testData.testQuestions[testPosition - 1]
+              }
+              showNextQuestionHandler={showNextQuestionHandler}
+              selectAnswer={selectAnswer}
+            />
+          </>
+
+        )
+        }
+      </div ></div >)
 }
 
 export default Test; 
