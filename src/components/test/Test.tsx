@@ -46,10 +46,10 @@ const Test: React.FC = () => {
   const showNextQuestionHandler = () => setTestPosition(testPosition + 1)
 
   return (
-    <div style={{ width: '700px' }}>
+    <div className="container" >
       <div className="languageButtons">
-        <Button color="primary" onClick={() => changeLanguage('eng')} style={{ width: '15px', margin: '10px' }}>English</Button>
-        <Button color="primary" onClick={() => changeLanguage('magyar')} style={{ width: '15px', margin: '10px' }}>Magyar</Button>
+        <Button color="primary" onClick={() => changeLanguage('eng')} >English</Button>
+        <Button color="primary" onClick={() => changeLanguage('magyar')} >Magyar</Button>
       </div >
       <div>
         {isTestEnd ? (

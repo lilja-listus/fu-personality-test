@@ -8,4 +8,22 @@ body {
   display: flex;
   justify-content: end;
   flex-direction: row;
+  > button{
+width: 15px;
+margin: 5px;
+margin-top: 40px;
+
+  }
+  @media  (max-width: 400px) { 
+   margin-right: 10px;
+   margin-top: 20px;
+  }
+}
+
+.container{
+  width: 700px;
+
+  @media  (max-width: 600px) { 
+    width: 100%;
+  }
 }
